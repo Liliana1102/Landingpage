@@ -1,5 +1,4 @@
 import React from "react"
-import arakiri from './assets/img/OFERTAS2.png';
 import './index.css';
 
 
@@ -8,21 +7,38 @@ const App =_=>{
 
     <div>
 
-      <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel" >
-          <div id="carru" class="carousel-inner rounded-3">
-            <div class="carousel-item active">
-              <img src="./public/carrucel 4.jpg" class="d-block w-100" alt="bootstrap" width="520px" height="400px"/>
+      <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+          <div  id="carru" class="carousel-inner rounded-3">
+            <div class="carousel-item active" data-bs-interval="10000">
+              <img src="./public/imgcarru.png" class="d-block w-100" alt="..." width="520px" height="400px"/>
+              {/* <div class="carousel-caption top-0 mt-5">
+                <h5>Third slide label</h5>
+                <p>Some representative placeholder content for the third slide.</p>
+              </div> */}
+            </div>
+            <div class="carousel-item" data-bs-interval="2000">
+              <img src="./public/carrucel 5.jpg" class="d-block w-100" alt="..." width="520px" height="400px"/>
+              {/* <div id="text" class="carousel-caption top-0 mt-4">
+                <h5 id="text">Third slide label</h5>
+                <p>Some representative placeholder content for the third slide.</p>
+              </div> */}
             </div>
             <div class="carousel-item">
               <img src="./public/carrucel 3.jpg" class="d-block w-100" alt="..." width="520px" height="400px"/>
+              {/* <div class="carousel-caption top-0 mt-4">
+                <h5>Third slide label</h5>
+                <p>Some representative placeholder content for the third slide.</p>
+              </div> */}
             </div>
-            <div class="carousel-item">
-              <img src="./public/carrucel 5.jpg" class="d-block w-100" alt="..." width="520px" height="400px"/>
-            </div>
-            <div class="carousel-item">
-              <img src="./public/carrucel.webp" class="d-block w-100" alt="..." width="520px" height="400px"/>
-            </div>
-        </div>
+          </div>
+          <button id="botun" class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+            <span id="boto1" class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button id="botun" class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+            <span id="boto1" class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
       </div>
 
     </div>
@@ -30,67 +46,3 @@ const App =_=>{
 }
 
 export default App
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-// function App() {
-//   return(
-//     <div className="App">
-//       <h1>Hola wueyyy</h1>
-
-//     </div>
-//   )
-// }
-
-// import { useState } from 'react'
-// import reactLogo from './assets/react.svg'
-// import viteLogo from '/vite.svg'
-// import './App.css'
-
-// function App() {
-//   const [count, setCount] = useState(0)
-
-//   return (
-//     <>
-//       <div>
-//         <a href="https://vitejs.dev" target="_blank">
-//           <img src={viteLogo} className="logo" alt="Vite logo" />
-//         </a>
-//         <a href="https://react.dev" target="_blank">
-//           <img src={reactLogo} className="logo react" alt="React logo" />
-//         </a>
-//       </div>
-//       <h1>Vite + React</h1>
-//       <div className="card">
-//         <button onClick={() => setCount((count) => count + 1)}>
-//           count is {count}
-//         </button>
-//         <p>
-//           Edit <code>src/App.jsx</code> and save to test HMR
-//         </p>
-//       </div>
-//       <p className="read-the-docs">
-//         Click on the Vite and React logos to learn more
-//       </p>
-//     </>
-//   )
-// }
-
-
