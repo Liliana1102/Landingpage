@@ -3,6 +3,7 @@ body{
   background: url(./assets/img/fodo4.jpg);
   background-position: center;
   background-repeat: no-repeat;
+  height: 100%;
 }
 #carru {
   width: 1310px;
@@ -89,8 +90,8 @@ body{
 .container{
   width: 100%;
   display: flex;
-  max-width: 100%;
-  padding-top: 30px;
+  max-width: 150%;
+  padding-top: 25px;
 }
 
 .card{
@@ -98,7 +99,7 @@ body{
   margin: 30px;
   border-radius: 6px;
   overflow: hidden;
-  background: #ffffffaf;
+  background: #ffffffb7;
   box-shadow: 0px 1px 10px rgb(0, 0, 0, 0.2) ;
   cursor: default;
   transition: all 400ms ease;
@@ -111,13 +112,17 @@ body{
 }
 
 .card img{
-  width: 100%;
-  height: 210px;
+  width: 70%;
+  height: 170px;
+  padding: 10px;
+  transform: translateX(0%);
 }
 
-.card .contenido{
-  padding: 15px;
+a{
+  padding: 12px;
   text-align: center;
+  text-decoration: none;
+  color: #363232;
 }
 
 
@@ -125,15 +130,31 @@ body{
 .card .contenido button{
   text-decoration: none;
   display: inline-block;
-  padding: 10px;
-  margin-top: 10px;
-  color: #2fb4cc;
-  border: 1px solid #2fb4cc;
+  padding: 5px;
+  margin-top: -1px;
+  color: #0b0c0c;
+  border: px solid #000000;
   border-radius: 4px;
   transition: all 400ms ease;
 }
 
 .card .contenido button:hover{
-  background: #2fb4cc;
+  background: #000000;
   color: #fff;
+}
+
+.Info{
+  width: 30%;
+  margin: 40px;
+  border-radius: 6px;
+  background: #ffffffb7;
+  box-shadow: 0px 1px 10px rgb(0, 0, 0, 0.2) ;
+  cursor: default;
+  padding: 20px;
+  transform: translateY(-80%);
+}
+
+#tecladorosa{
+  padding: 20px;
+  transform: translateX(80%);
 }

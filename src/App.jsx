@@ -10,25 +10,13 @@ const App =_=>{
       <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
           <div  id="carru" class="carousel-inner rounded-3">
             <div class="carousel-item active" data-bs-interval="10000">
-              <img src="./public/imgcarru.png" class="d-block w-100" alt="..." width="520px" height="400px"/>
-              {/* <div class="carousel-caption top-0 mt-5">
-                <h5>Third slide label</h5>
-                <p>Some representative placeholder content for the third slide.</p>
-              </div> */}
+              <img src="./public/carrusel4.png" class="d-block w-100" alt="..." width="520px" height="350px"/>
             </div>
-            <div class="carousel-item" data-bs-interval="2000">
-              <img src="./public/carrucel 5.jpg" class="d-block w-100" alt="..." width="520px" height="400px"/>
-              {/* <div id="text" class="carousel-caption top-0 mt-4">
-                <h5 id="text">Third slide label</h5>
-                <p>Some representative placeholder content for the third slide.</p>
-              </div> */}
+            <div class="carousel-item" data-bs-interval="10000">
+              <img src="./public/carrusel5.png" class="d-block w-100" alt="..." width="520px" height="350px"/>
             </div>
             <div class="carousel-item">
-              <img src="./public/carrucel 3.jpg" class="d-block w-100" alt="..." width="520px" height="400px"/>
-              {/* <div class="carousel-caption top-0 mt-4">
-                <h5>Third slide label</h5>
-                <p>Some representative placeholder content for the third slide.</p>
-              </div> */}
+              <img src="./public/carrusel2.png" class="d-block w-100" alt="..." width="520px" height="350px"/>
             </div>
           </div>
           <button id="botun" class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">

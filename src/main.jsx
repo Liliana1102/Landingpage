@@ -7,6 +7,7 @@ import Navbar from './Navbar.jsx'
 import Card from './Card.jsx'
 
 
+
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     <Buscador/>
